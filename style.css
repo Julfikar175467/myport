@@ -15,7 +15,7 @@ body{
  /*==================== Basic task======================== */
  .btn{
 	padding: 10px 25px;
-	background:orange;
+	background:#F77B01;
 	color:black;
 	border:none;
 	outline:none;
@@ -23,9 +23,7 @@ body{
 	text-transform: capitalize;
 	font-size: 18px;
 	font-weight: 400;
- }
- .btn-1{
-	margin:0 20px;
+	margin-right:20px;
  }
 
  span{
@@ -34,10 +32,15 @@ body{
 
  }
  h1{
-	font-size:30px;
+	font-size:35px;
 	font-weight: 800;
 	color:#fff;
 
+ }
+ h2{
+	color: #F77B01;
+	font-weight: 600;
+	text-transform: capitalize;
  }
  h3{
 	font-size: 25px;
@@ -58,7 +61,20 @@ body{
 	position: absolute;
  }
 
-
+ nav ul li a::after{
+	display: block;
+	content: "";
+	background-color: #fff;
+	height:3px;
+	width:0;
+	top:-8px;
+	right:0;
+	position: absolute;
+	transition: .5s;
+ }
+ nav ul li a:hover::after{
+	width: 100%;
+ }
 /* ============home page design=========*/
 
 header{
@@ -115,10 +131,50 @@ nav a {
 }
 
 /* ===============home page design end================*/
+/*============== about page design=============== */
 
+.about{
+	height: 80vh;
+	background-color:#1D1D1B;
+	text-align: center;
+	padding:80px 20% 0;
+	color:#fff;
+	
 
+}
+.about .contain{
+	padding:50px 15% 0;
+	font-weight: 400;
+	
+}
+/* ===============about page end========= */
+/* ==========service page design========== */
+.service{
+	height:80vh;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-around;
+	gap:20px;
+	align-items: center;
+	text-align: center;
+	padding: 20px 10%;
+}
+.service img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
 
-
+}
+.service .col{
+	padding:20px;
+	border:1px solid lightgray;
+	background-color:#1D1D1B;
+	border-radius: 5px;
+	box-shadow: 2px 3px 3px black;
+}
+.service .col p{
+	color:#fff;
+}
 
 
 
