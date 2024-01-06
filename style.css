@@ -35,16 +35,22 @@ body{
 	color:#F77B01;
 
  }
+ hr{
+	text-align: center;
+	width: 70px;
+	color:#F77B01;
+ }
  h1{
 	font-size:30px;
 	font-weight: 800;
 	color:#fff;
+	text-transform: uppercase;
 
  }
  h2{
 	color: #F77B01;
 	font-weight: 600;
-	text-transform: capitalize;
+	text-transform: uppercase;
  }
  h3{
 	font-size: 25px;
@@ -74,7 +80,7 @@ body{
  nav ul li a::after{
 	display: block;
 	content: "";
-	background-color: #fff;
+	background-color: #F77B01;
 	height:3px;
 	width:0;
 	top:-8px;
@@ -93,7 +99,7 @@ body{
 /* ============home page design=========*/
 
 header{
-	height: 100vh;
+	height: 90vh;
 	background:white;
 }
 nav{
@@ -149,7 +155,7 @@ nav a {
 /*============== about page design=============== */
 
 .about{
-	height: 80vh;
+	height: 60vh;
 	background-color:#1D1D1B;
 	text-align: center;
 	padding:80px 20% 0;
@@ -165,7 +171,7 @@ nav a {
 /* ===============about page end========= */
 /* ==========service page design========== */
 .service{
-	height:80vh;
+	height:70vh;
 	background-color: #fff;
 	display: flex;
 	justify-content: space-around;
@@ -202,15 +208,18 @@ nav a {
 	gap:20px;
 }
 .blog img{
-	border:5px solid black;
-	box-shadow: 2px 2px 2px black;
+	border:5px solid #F77B01;
+	box-shadow: 2px 2px 2px rgb(255, 255, 255);
 	border-radius: 10px;
 }
 .blog .col{
-	padding: 30px;
-	background-color: rgb(255, 255, 255);
-	box-shadow: 2px 2px 0 rgb(5, 5, 5),-2px -2px 0 rgb(10, 10, 10);
+	padding: 50px;
+	box-shadow: 2px 2px 0 rgb(248, 182, 2),-2px -2px 0 rgb(238, 183, 2);
 	border-radius: 10px;
+	text-align: center;
+}
+.blog .col p{
+	color: #fff;
 }
  /* ============gallary start=============== */
 .gallary{
