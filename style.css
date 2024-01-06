@@ -113,6 +113,7 @@ nav{
 	height:60px;
 	background-color: #1D1D1B;
 	align-items: center;
+	box-shadow: 0 5px 0 #F77B01;
 }
 nav > ul {
 	list-style: none;
@@ -164,6 +165,7 @@ nav a {
 	text-align: center;
 	padding:80px 20% 0;
 	color:#fff;
+	border-top:9px solid #F77B01;
 	
 
 }
@@ -183,6 +185,8 @@ nav a {
 	align-items: center;
 	text-align: center;
 	padding: 20px 10%;
+	border-top:10px solid #F77B01;
+	
 }
 .service img{
 	width: 100px;
@@ -210,10 +214,11 @@ nav a {
 	align-items: center;
 	padding:50px 10%;
 	gap:20px;
+	border-top:8px solid #F77B01;
 }
 .blog img{
 	border:5px solid #F77B01;
-	box-shadow: 2px 2px 2px rgb(255, 255, 255);
+	box-shadow: 2px 2px 2px rgb(231, 152, 4);
 	border-radius: 10px;
 }
 .blog .col{
@@ -221,6 +226,7 @@ nav a {
 	box-shadow: 2px 2px 0 rgb(248, 182, 2),-2px -2px 0 rgb(238, 183, 2);
 	border-radius: 10px;
 	text-align: center;
+	
 }
 .blog .col p{
 	color: #fff;
@@ -230,10 +236,11 @@ nav a {
 	height: 80vh;
 	background-color: #fff;
 	padding:50px 5%;
+	border-top:9px solid #F77B01;
 }
 
 .gallary img{
-	border:5px solid black;
+	border:5px solid #F77B01;
 	border-radius: 10px;
 }
 .gallary .gallary-one{
@@ -259,10 +266,10 @@ nav a {
 /* ============foooter page design============== */
 
 
- /* footer{
-	background-color: #1D1D1B;
-	height:20vh;
- } */
+  footer{
+	border-top: 5px solid #F77B01;
+  }
+
  .lower-footer{
 	display: flex;
 	align-items: center;
@@ -271,6 +278,7 @@ nav a {
 	background-color: black;
 	color:white;
 	justify-content: center;
+	
  }
  .upper-footer{
 	display: flex;
@@ -281,6 +289,7 @@ nav a {
 	gap:20px;
 	align-items: center;
 	padding:50px 10%;
+	border-bottom: 1px solid #F77B01;
 
 
 
