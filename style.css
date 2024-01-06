@@ -39,6 +39,10 @@ body{
 	color:#fff;
 
  }
+ h3{
+	font-size: 25px;
+	text-transform: capitalize;
+ }
  .btn:hover{
 	box-shadow: 1px 1px 0 rgb(230, 202, 150),-1px -1px 0 rgb(230, 202, 150);
  }
@@ -135,7 +139,61 @@ nav a {
 	height:20vh;
  } */
  .lower-footer{
-	height: 20px;
+	display: flex;
+	align-items: center;
+	margin: auto;
+	height: 50px;
 	background-color: black;
 	color:white;
+	justify-content: center;
  }
+ .upper-footer{
+	display: flex;
+	height: 40vh;
+	background-color: #1D1D1B;
+	justify-content: space-around;
+	color:white;
+	gap:20px;
+	align-items: center;
+	padding:50px 5%;
+
+
+
+ }
+.upper-footer .col-4{
+	
+	padding:20px;
+	width: 280;
+	height: 355;
+	width: 100%;
+
+}
+.upper-footer .col-3{
+ padding:40px;
+ font-weight: 400;
+ width: 100%;
+}
+.upper-footer .col-2{
+	font-weight: 400;
+	width: 100%;
+   }
+   .upper-footer .col-1{
+	padding:40px;
+	font-weight: 400;
+	width: 100%;
+   }
+.upper-footer textarea{
+	margin-bottom: 20px;
+	display: block;
+	width:100%;
+	
+}
+.upper-footer input[type="email"] ,input[type="password"]{
+	display: block;
+	width: 100%;
+	margin:10px 0;
+}
+.upper-footer ul li {
+	margin: 10px;
+	list-style-type: style disc;
+}
