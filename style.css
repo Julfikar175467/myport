@@ -24,33 +24,50 @@ body{
 	font-size: 18px;
 	font-weight: 400;
  }
+ .btn-1{
+	margin:0 20px;
+ }
 
  span{
 
-	color:orange;
+	color:#F77B01;
 
  }
  h1{
 	font-size:30px;
 	font-weight: 800;
+	color:#fff;
 
  }
  .btn:hover{
 	box-shadow: 1px 1px 0 rgb(230, 202, 150),-1px -1px 0 rgb(230, 202, 150);
  }
 
+ nav ul li a::before{
+	display: block;
+	content: "";
+	background-color: #fff;
+	height:100%;
+	width:2px;
+	top:0;
+	left: -20px;
+	position: absolute;
+ }
+
+
 /* ============home page design=========*/
 
 header{
 	height: 100vh;
-	background-color: rgba(0, 0, 0, 0.349);
+	background:white;
 }
 nav{
 	display: flex;
 	padding:10px 5%;
 	justify-content: space-between;
-	height:80px;
-	background-color: white;
+	height:60px;
+	background-color: #1D1D1B;
+	align-items: center;
 }
 nav > ul {
 	list-style: none;
@@ -62,7 +79,63 @@ nav > ul li {
 }
 nav a {
 	text-decoration: none;
-	color:black;
+	color:#fff;
 	font-size: 18px;
 	font-weight: 600;
+	position: relative;
 }
+.contain-box{
+	display: flex;
+	justify-content: space-around;
+	padding:0 15%;
+	align-items: center;
+}
+.contain-text{
+	padding:0 400px 0 0;
+}
+.contain-text p{
+	font-weight: 200;
+	font-size: 16px;
+	text-align: justify;
+}
+.contain-text h2{
+	font-size: 30px;
+	font-weight: 800;
+	margin: 10px 0;
+}
+.imge-box img{
+  padding:40px 50px;
+}
+.btn-box{
+	margin-top: 50px;
+}
+
+/* ===============home page design end================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============foooter page design============== */
+
+
+ /* footer{
+	background-color: #1D1D1B;
+	height:20vh;
+ } */
+ .lower-footer{
+	height: 20px;
+	background-color: black;
+	color:white;
+ }
