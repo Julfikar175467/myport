@@ -242,6 +242,7 @@ nav a {
 .gallary img{
 	border:5px solid #F77B01;
 	border-radius: 10px;
+	box-shadow: 2px 2px 2px #1D1D1B,-2px -2px 2px #1D1D1B;
 }
 .gallary .gallary-one{
 	display: grid;
