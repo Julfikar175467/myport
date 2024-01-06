@@ -1,0 +1,80 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:sans-serif,Arial, Helvetica, sans-serif;
+}
+header{
+	background-color: rgb(211, 216, 211);
+	height:80vh;
+
+}
+nav{
+	height:80px;
+	padding:10px 10%;
+	background: lightseagreen;
+	text-align: center;
+	
+}
+
+nav >ul{
+	list-style: none;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left:0;
+	
+
+}
+nav > ul li {
+	padding:10px 20px;
+	
+	transition:.4s;
+	margin:0 20px;
+	
+	
+}
+nav ul li a{
+	text-decoration: none;
+	color:#fff;
+	text-transform: uppercase;
+	position: relative;
+	font-size: 25px;
+	font-weight: 200;
+	
+}
+ /* ul li:hover{
+	background-color: rgb(159, 97, 218);
+	border-radius: 10px;
+}  */
+ ul li a::before{
+	content: "";
+	position: absolute;
+	top:-5px;
+	left:0;
+	background-color: rgb(160, 97, 197);
+	height:5px;
+	display: block;
+	width: 0;
+	transition: .5s;
+ }
+ nav ul li :hover::before{
+	width: 100%;
+ }
+ ul li a::after{
+	content: "";
+	background-color: rgba(108, 109, 216, 0.568);
+	width:0;
+	height:100%;
+	display: block;
+	position: absolute;
+	top:0;
+	right:0;
+	transition: .4s;
+	
+ }
+ ul li :hover::after{
+	width:100%;
+	
+ }
+ /* dropdown maennu start */
