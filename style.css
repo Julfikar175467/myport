@@ -1,80 +1,68 @@
+
+/*=================font family import=============*/
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;0,800;1,400&display=swap');
+
+/*================== design start=======================*/
+
+
 body{
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family:sans-serif,Arial, Helvetica, sans-serif;
-}
-header{
-	background-color: rgb(211, 216, 211);
-	height:80vh;
+	font-family: 'Open Sans', sans-serif;
 
+}
+ /*==================== Basic task======================== */
+ .btn{
+	padding: 10px 25px;
+	background:orange;
+	color:black;
+	border:none;
+	outline:none;
+	border-radius: 5px;
+	text-transform: capitalize;
+	font-size: 18px;
+	font-weight: 400;
+ }
+
+ span{
+
+	color:orange;
+
+ }
+ h1{
+	font-size:30px;
+	font-weight: 800;
+
+ }
+ .btn:hover{
+	box-shadow: 1px 1px 0 rgb(230, 202, 150),-1px -1px 0 rgb(230, 202, 150);
+ }
+
+/* ============home page design=========*/
+
+header{
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.349);
 }
 nav{
-	height:80px;
-	padding:10px 10%;
-	background: lightseagreen;
-	text-align: center;
-	
-}
-
-nav >ul{
-	list-style: none;
-	display:flex;
+	display: flex;
+	padding:10px 5%;
 	justify-content: space-between;
-	align-items: center;
-	padding-left:0;
-	
-
+	height:80px;
+	background-color: white;
+}
+nav > ul {
+	list-style: none;
 }
 nav > ul li {
-	padding:10px 20px;
-	
-	transition:.4s;
-	margin:0 20px;
-	
-	
+	display: inline-block;
+	padding:10px 25px;
+	margin-left: 20px;
 }
-nav ul li a{
+nav a {
 	text-decoration: none;
-	color:#fff;
-	text-transform: uppercase;
-	position: relative;
-	font-size: 25px;
-	font-weight: 200;
-	
+	color:black;
+	font-size: 18px;
+	font-weight: 600;
 }
- /* ul li:hover{
-	background-color: rgb(159, 97, 218);
-	border-radius: 10px;
-}  */
- ul li a::before{
-	content: "";
-	position: absolute;
-	top:-5px;
-	left:0;
-	background-color: rgb(160, 97, 197);
-	height:5px;
-	display: block;
-	width: 0;
-	transition: .5s;
- }
- nav ul li :hover::before{
-	width: 100%;
- }
- ul li a::after{
-	content: "";
-	background-color: rgba(108, 109, 216, 0.568);
-	width:0;
-	height:100%;
-	display: block;
-	position: absolute;
-	top:0;
-	right:0;
-	transition: .4s;
-	
- }
- ul li :hover::after{
-	width:100%;
-	
- }
- /* dropdown maennu start */
