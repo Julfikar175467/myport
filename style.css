@@ -149,8 +149,15 @@ nav a {
 	font-weight: 800;
 	margin: 10px 0;
 }
-.imge-box img{
-  padding:40px 50px;
+.image-box{
+	background:linear-gradient(to bottom, #F77B01,#1D1D1B,#fff,rgb(238, 176, 6),#F77B01) ;
+	border-radius: 50%;
+	margin-top:30px;
+
+}
+.image-box img{
+  
+
 }
 .btn-box{
 	margin-top: 50px;
@@ -233,9 +240,9 @@ nav a {
 }
  /* ============gallary start=============== */
 .gallary{
-	height: 80vh;
+	height: 90vh;
 	background-color: #fff;
-	padding:50px 5%;
+	padding:50px;
 	border-top:9px solid #F77B01;
 }
 
@@ -243,11 +250,14 @@ nav a {
 	border:5px solid #F77B01;
 	border-radius: 10px;
 	box-shadow: 2px 2px 2px #1D1D1B,-2px -2px 2px #1D1D1B;
+	margin:30px; 
 }
 .gallary .gallary-one{
-	display: grid;
-	grid-template-columns: repeat(4,1fr);
-	gap:10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
 
 	
 }
