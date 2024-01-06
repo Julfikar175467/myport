@@ -10,6 +10,7 @@ body{
     padding:0;
     box-sizing: border-box;
 	font-family: 'Open Sans', sans-serif;
+    transition: .5s;
 
 }
  /*==================== Basic task======================== */
@@ -32,7 +33,7 @@ body{
 
  }
  h1{
-	font-size:35px;
+	font-size:30px;
 	font-weight: 800;
 	color:#fff;
 
@@ -74,6 +75,11 @@ body{
  }
  nav ul li a:hover::after{
 	width: 100%;
+ }
+ p{
+	font-family: sans-serif;
+	font-weight: 200;
+	font-size: 14px;
  }
 /* ============home page design=========*/
 
@@ -143,7 +149,7 @@ nav a {
 
 }
 .about .contain{
-	padding:50px 15% 0;
+	padding:50px 20% 0;
 	font-weight: 400;
 	
 }
@@ -166,7 +172,7 @@ nav a {
 
 }
 .service .col{
-	padding:20px;
+	padding:40px 30px;
 	border:1px solid lightgray;
 	background-color:#1D1D1B;
 	border-radius: 5px;
@@ -175,11 +181,52 @@ nav a {
 .service .col p{
 	color:#fff;
 }
+/* ==========service page design end============= */
+/* ========blog page design start============ */
+.blog{
+	height: 70vh;
+	background-color: #1D1D1B;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:50px 10%;
+	gap:20px;
+}
+.blog img{
+	border:5px solid black;
+	box-shadow: 2px 2px 2px black;
+	border-radius: 10px;
+}
+.blog .col{
+	padding: 30px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 2px 2px 0 rgb(5, 5, 5),-2px -2px 0 rgb(10, 10, 10);
+	border-radius: 10px;
+}
+ /* ============gallary start=============== */
+.gallary{
+	height: 80vh;
+	background-color: #fff;
+	padding:50px 5%;
+}
 
+.gallary img{
+	border:5px solid black;
+	border-radius: 10px;
+}
+.gallary .gallary-one{
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	gap:10px;
 
-
-
-
+	
+}
+.gallary .gallary-two{
+	display: flex;
+	justify-content: space-between;
+	padding:10px;
+	align-items: center;
+}
 
 
 
