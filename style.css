@@ -30,6 +30,14 @@ p{
     line-height: 25px;
     font-size: 18px;
 }
+h2{
+    font-size: 45px;
+    text-transform: capitalize;
+    color: #fff;
+}
+h3{
+    color:#4d4848;
+}
 /* ==============basic end====================== */
 .home{
     width: 100%;
@@ -56,24 +64,22 @@ p{
 .blog{
     width: 100%;
     background-color: #fff;
+    padding:5% 10%;
    
 }
 .blog .blog-contain .text-box{
     text-align: center;
     padding:100px 10px;
-    padding:10px 10%;
 }
 .blog .blog-contain .flower-box{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:10px 10%;
-
 }
 .blog .blog-contain .flower-box img{
     background-color: #D9EFF1;
-    height: 420px;
-    width: 320px;
+    height: 530px;
+    width: 420px;
     text-align: center;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
@@ -91,9 +97,11 @@ p{
     display: flex;
     text-align: center;
     justify-content: space-around;
+    align-items: center;
     margin:50px 0;
     background-color: #F4F4F4;
-    padding: 40px 0;
+    padding: 50px 0;
+
 }
 .blog .blog-contain .logo-box img{
     padding:20px;
@@ -101,6 +109,70 @@ p{
 /* ===============about page start===================== */
 .about{
     width: 100%;
-    height: 100vh;
-    background-color: blanchedalmond;
+    background-color: #FCEEF1;
+    padding:2% 10%;
+}
+.about .about-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.about .about-box .col{
+    padding: 100px;
+    text-align: center;
+}
+
+/* =====================galllary page start====================== */
+.gallary{
+    width: 100%;
+    padding:2% 10%;
+    background:#fff;
+}
+.gallary .gallary-box .gallary-text-box{
+    text-align: center;
+}
+.gallary .gallary-box .img-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5% 0;
+}
+/* =====================popup form statt================= */
+
+.popup-box{
+    background-image: url("Flower Asset/Rectangle 9.png");
+    background-size: cover;
+    text-align: center;
+    height: 40vh;
+    padding: 2% 0 0;
+}
+.popup-box .subscrib-btn{
+    margin: 2% 2%;
+
+}
+ input[type="email"]{
+    padding: 12px 40px;
+    outline: none;
+    border:none;
+    border-radius: 5px;
+    margin-right: -12px;
+    background-color: #fdfdfd;
+   
+}
+.subscrib-btn input[type="submit"]{
+    outline:none;
+    border:none;
+    border-top-left-radius: none;
+}
+
+/* ====================footer start============== */
+footer{
+    width: 100%;
+    background-color: #050404;
+    padding: 2% 10%;
+}
+footer .footer-box{
+    text-align:center;
+    color:#fff;
 }
