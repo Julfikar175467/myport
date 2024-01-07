@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+/* ================basic setup start================ */
+.btn{
+    padding:12px 28px;
+    background-color: #E55473;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 18px;
+}
+span{
+    color:#E55473;
+}
+h1{
+    font-size: 35px;
+    text-transform: capitalize;
+    margin: 20px 0;
+    color: #272727;
+}
+p{
+    color: #9D9D9D;
+    margin: 30px 0;
+    line-height: 25px;
+    font-size: 18px;
+}
+/* ==============basic end====================== */
+.home{
+    width: 100%;
+    height: 90vh;
+    background-color: #FCEEF1;
+    padding:10px 10%;
+    
+}
+.home .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home .container .contain-text{
+    padding: 20px 50px;
+}
+.contain-text h1{
+    font-size: 85px;
+}
+.home .container .contain-image-box {
+   padding: 25px;
+}
+/* ================home page design end===================== */
+.blog{
+    width: 100%;
+    background-color: #fff;
+   
+}
+.blog .blog-contain .text-box{
+    text-align: center;
+    padding:100px 10px;
+    padding:10px 10%;
+}
+.blog .blog-contain .flower-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 10%;
+
+}
+.blog .blog-contain .flower-box img{
+    background-color: #D9EFF1;
+    height: 420px;
+    width: 320px;
+    text-align: center;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+}
+.blog .blog-contain .flower-box{
+    
+}
+.blog .blog-contain .flower-box a{
+ color:#272727;
+ display: block;
+ text-align: center;
+ margin-top: 20px;
+}
+.blog .blog-contain .logo-box {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin:50px 0;
+    background-color: #F4F4F4;
+    padding: 40px 0;
+}
+.blog .blog-contain .logo-box img{
+    padding:20px;
+}
+/* ===============about page start===================== */
+.about{
+    width: 100%;
+    height: 100vh;
+    background-color: blanchedalmond;
+}
