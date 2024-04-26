@@ -4,7 +4,7 @@
 A brief description of what this project does and who it's for
 
 ## Instalation file
--deisy ui
+
 - tailwin css
 - react router
 - mongodb
